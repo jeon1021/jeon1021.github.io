@@ -54,3 +54,19 @@
 .sidenav a:hover {
   color: #f1f1f1;
 }
+
+.carousel {
+
+  .item {
+    overflow: hidden;
+
+    img {
+      height: 100%;
+      max-width: none;
+      left: 50%;
+      position: relative;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+    }
+  }
+}
